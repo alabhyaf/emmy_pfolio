@@ -15,12 +15,12 @@ body {
 }
 
 a:hover {
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 #content {
   background-color: #fffeff;
-  background-image: url(../../demo/bg/main-back.png);
+  /* background-image: url(../../demo/bg/main-back.png); */
   background-position: center bottom;
 }
 
@@ -141,4 +141,23 @@ h6 {
 
 .main-footer .contact-form input[type=submit]:hover {
   color: #000;
+}
+
+.filter-list-scheme-light li {
+  color: var(--color-tertiary);
+  opacity: 0.5;
+}
+
+.filter-list-scheme-light li:hover {
+  color: var(--color-tertiary);
+  opacity: 1;
+}
+
+.filter-list-scheme-light li.active{
+  color: var(--color-tertiary);
+  opacity: 1;
+}
+
+.navbar-header {
+  
 }

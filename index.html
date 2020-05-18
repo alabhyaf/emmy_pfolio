@@ -24,7 +24,8 @@
 </head>
 
 <body data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left" data-mobile-nav-style="minimal"
-	data-mobile-nav-shceme="gray" data-mobile-header-scheme="gray" data-mobile-nav-breakpoint="1199">
+	data-mobile-nav-shceme="var(--color-primary)" data-mobile-header-scheme="var(--color-primary)"
+	data-mobile-nav-breakpoint="1199">
 
 	<div id="wrap">
 
@@ -65,25 +66,24 @@
 
 							</div><!-- /.col -->
 
-							<div class="col text-right">
+							<div class="col">
 
 								<div class="collapse navbar-collapse" id="main-header-collapse">
 
-									<ul class="main-nav main-nav-hover-underline-2 nav align-items-lg-stretch justify-content-lg-start"
+									<ul class="main-nav main-nav-hover-underline-2 nav align-items-lg-stretch justify-content-lg-end"
 										data-submenu-options='{ "toggleType":"fade", "handler":"mouse-in-out" }'
 										data-localscroll="true">
-
-										<li class="current-menu-item">
-											<a href="#content">
+										<li>
+											<a href="index.html#portfolio">
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
-													<h3 class="text-tertiary">Home</h3>
+													<h3 class="text-tertiary">Work</h3>
 												</span>
 											</a>
 										</li>
 										<li>
-											<a href="#about">
+											<a href="./about.html">
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
@@ -92,16 +92,7 @@
 											</a>
 										</li>
 										<li>
-											<a href="#portfolio">
-												<span class="link-icon"></span>
-												<span class="link-txt">
-													<span class="link-ext"></span>
-													<h3 class="text-tertiary">Portfolio</h3>
-												</span>
-											</a>
-										</li>
-										<li>
-											<a href="#contact">
+											<a href="./contact.html">
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
@@ -122,30 +113,29 @@
 			</div><!-- /.mainbar-wrap -->
 
 		</header><!-- /.main-header -->
-
 		<main id="content" class="content">
-			<section class="vc_row pt-240 pb-240 bg-cover bg-center">
+			<section class="vc_row pt-200 pb-120 bg-cover bg-center">
 
 				<!-- <section class="vc_row pt-240 pb-240 bg-cover bg-center"
 				style="background-image: url(./assets/demo/bg/bg-18.jpg);"> -->
 				<div class="container">
 					<div class="row">
 
-						<div class="lqd-column col-md-8 pb-md-4">
+						<div class="lqd-column col-md-7 pb-md-4">
 
 							<h4 class="font-weight-bold text-tertiary" data-split-text="true"
 								data-split-options='{"type":"lines"}' data-custom-animations="true"
 								data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":700,"delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"translateY":58, "opacity": 1},"animations":{"translateY":0, "opacity": 0.6}}'>
 								UX designer</h4>
 							<h1 class="text-tertiary" data-fittext="true"
-								data-fittext-options='{ "compressor":0.7, "maxFontSize": "72", "minFontSize": "40"}'
+								data-fittext-options='{ "compressor":0.7, "maxFontSize": "64", "minFontSize": "20"}'
 								data-split-text="true" data-split-options='{"type":"chars, words"}'
 								data-custom-animations="true"
 								data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":"1000","startDelay":"150","delay":"40","easing":"easeOutBack","direction":"forward","initValues":{"translateY":35,"rotateZ":5,"opacity":0},"animations":{"translateY":0,"rotateZ":0,"opacity":1}}'>
 								Hi there, I’m <span class="text-secondary">Emmy</span> putting the "fun" in functional
 							</h1>
 
-						</div><!-- /.lqd-column col-md-8 -->
+						</div><!-- /.lqd-column col-md-6 -->
 
 						<div class="lqd-column col-lg-4 col-md-4 visible-md visible-lg">
 
@@ -187,133 +177,8 @@
 				</div><!-- /.container -->
 			</section>
 
-			<section id="about" class="vc_row pb-110" style="background-color: #0a0b4e;">
-				<div class="container">
 
-					<div class="row mb-120">
-
-						<div class="lqd-column col-md-12 border-radius-4 pt-70 pb-90 bg-cover"
-							style="background-image: url(./assets/demo/bg/bg-19.jpg); margin-top: -12%;">
-
-							<div class="row">
-
-								<div class="lqd-column col-lg-4 col-md-5 col-lg-offset-1 text-white"
-									data-custom-animations="true"
-									data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","startDelay":"500","delay":"30","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":45,"translateZ":-125,"rotateZ":-1,"opacity":0},"animations":{"translateY":0,"translateZ":0,"rotateZ":0,"opacity":1}}'>
-
-									<h3 class="text-white">About me</h3>
-									<p class="mb-60">My name is Emmy, I’m a UX designer in making 
-										based out of Seattle. I also have major skills in teaching and .
-									</p>
-									<ul class="social-icon scheme-white social-icon-md">
-										<li> <a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-										<li> <a href="#" target="_blank"><i class="fa fa-medium"></i></a></li>
-										<li> <a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
-										<li> <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>
-									</ul>
-
-								</div><!-- /.col-lg-4 col-md-5 col-lg-offset-1 -->
-
-								<div class="lqd-column col-md-4 col-md-offset-2 col-lg-3 col-lg-offset-3">
-
-									<div class="liquid-counter liquid-counter-huge liquid-counter-xl text-white">
-
-										<span class="liquid-counter-text liquid-text-top">More Than</span>
-										<div class="liquid-counter-element text-primary" data-enable-counter="true"
-											data-counter-options='{ "targetNumber": "7", "blurEffect": true }'>
-											<span>7</span>
-										</div><!-- /.liquid-counter-element -->
-										<span class="liquid-counter-text liquid-text-bottom">Years of experience</span>
-
-									</div><!-- /.liquid-counter liquid-counter-huge -->
-
-								</div><!-- /.col-md-4 col-md-offset-2 col-lg-3 col-lg-offset-3 -->
-
-							</div><!-- /.row -->
-
-
-						</div><!-- /.lqd-column col-md-12 -->
-
-					</div><!-- /.row -->
-
-					<div class="row mb-70">
-
-						<div class="lqd-column col-md-3 col-md-offset-1">
-
-							<h6 class="mt-0 font-size-14 text-uppercase font-weight-bold ltr-sp-2 text-secondary">Awards
-							</h6>
-
-						</div><!-- /.col-md-3 col-md-offset-1 -->
-
-						<div class="lqd-column col-md-7">
-
-							<div class="row">
-
-								<div class="lqd-column col-sm-6 text-white" data-custom-animations="true"
-									data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":30,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
-
-									<h4 class="text-white mt-0 mb-1">Opentech</h4>
-									<p class="text-fade-white-04 mb-3">UI / UX contest winner with CloudPay</p>
-
-									<h4 class="text-white mt-0 mb-1">Warephase</h4>
-									<p class="text-fade-white-04 mb-3">Best of Animation with Zara</p>
-
-									<h4 class="text-white mt-0 mb-1">Sumace</h4>
-									<p class="text-fade-white-04 mb-3">Top week Featured design</p>
-
-								</div><!-- /.col-sm-6 -->
-
-								<div class="lqd-column col-sm-6 text-white" data-custom-animations="true"
-									data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":30,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
-
-									<h4 class="text-white mt-0 mb-1">Blackzim</h4>
-									<p class="text-fade-white-04 mb-3">Design of the day with Biosock</p>
-
-									<h4 class="text-white mt-0 mb-1">Ontomedia</h4>
-									<p class="text-fade-white-04 mb-3">Top Level Certification with Fusion</p>
-
-									<h4 class="text-white mt-0 mb-1">Doncon</h4>
-									<p class="text-fade-white-04 mb-3">Top 10 best designers in the world</p>
-
-								</div><!-- /.col-sm-6 -->
-
-							</div><!-- /.row -->
-
-						</div><!-- /.col-md-7 -->
-
-					</div><!-- /.row -->
-
-					<div class="row">
-
-						<div class="lqd-column col-md-3 col-md-offset-1">
-
-							<h6 class="mt-0 font-size-14 text-uppercase font-weight-bold ltr-sp-2 text-secondary">Press
-							</h6>
-
-						</div><!-- /.col-md-3 col-md-offset-1 -->
-
-						<div class="lqd-column col-md-7" data-custom-animations="true"
-							data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":20,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
-
-							<ul class="lqd-custom-menu reset-ul inline-nav">
-								<li class="ml-0"><a href="#">Cancity,</a></li>
-								<li class="ml-0"><a href="#">Treequote,</a></li>
-								<li class="ml-0"><a href="#">Iselectrics,</a></li>
-								<li class="ml-0"><a href="#">Plusstrip,</a></li>
-								<li class="ml-0"><a href="#">Toughzap,</a></li>
-								<li class="ml-0"><a href="#">Codehow,</a></li>
-								<li class="ml-0"><a href="#">Zotware,</a></li>
-								<li class="ml-0"><a href="#">Statholdings,</a></li>
-							</ul>
-
-						</div><!-- /.col-md-7 -->
-
-					</div><!-- /.row -->
-
-				</div><!-- /.container -->
-			</section>
-
-			<section id="portfolio" class="vc_row pt-140 pb-50 bg-no-repeat bg-right-top"
+			<section id="portfolio" class="vc_row pt-80 pb-50 bg-no-repeat bg-right-top"
 				style="background-image: url(./assets/demo/bg/main-back-2.png);">
 				<div class="container">
 
@@ -349,20 +214,20 @@
 
 												<ul class="filter-list filter-list-inline size-md mb-0 filter-list-scheme-light"
 													id="portdolio-grid-1">
-													<li class="active" data-filter="*"><span>Selected Projects</span>
+													<li class="active" data-filter="*"><span>All</span>
 													</li>
-													<li data-filter=".uxui"><span>UX - UI Design</span></li>
-													<li data-filter=".branding"><span>Branding</span></li>
-													<li data-filter=".ecommerce"><span>eCommerce</span></li>
+													<li data-filter=".ur"><span>User Research</span></li>
+													<li data-filter=".branding"><span>UI design</span></li>
+													<li data-filter=".ecommerce"><span>Project management</span></li>
 												</ul>
 
-												<a href="#"
+												<!-- <a href="#"
 													class="btn btn-sm wide btn-bordered border-thick text-uppercase font-weight-bold"
 													style="font-size: 12px;">
 													<span>
 														<span class="btn-txt">See all work</span>
 													</span>
-												</a>
+												</a> -->
 
 											</div><!-- /.liquid-filter-items-inner -->
 
@@ -391,20 +256,20 @@
 												</div><!-- /.ld-pf-image -->
 
 												<div class="ld-pf-details">
-													<div class="ld-pf-bg" style="background-color: #ffd200;"
+													<div class="ld-pf-bg" style="background-color: #39b6bf;"
 														data-custom-animations="true"
 														data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": "this", "duration": 850, "initValues": { "scale": 0, "transformOrigin": "0 80% 0" }, "animations": { "scale": 1, "transformOrigin": "0 80% 0" } }'>
 													</div><!-- /.ld-pf-bg -->
 													<div class="ld-pf-details-inner justify-content-center"
 														data-custom-animations="true"
 														data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "startDelay": 200, "duration": 650, "delay": 150, "initValues": { "translateY": "150%" }, "animations": { "translateY": "0", "rotateX": 0 } }'>
-														<h3 class="ld-pf-title h4 font-weight-bold"
+														<h3 class="ld-pf-title h4 font-weight-bold text-white"
 															data-split-text="true"
-															data-split-options='{ "type": "lines" }'>Electro summer wave
-															poster</h3>
+															data-split-options='{ "type": "lines" }'>Cupcake Royale
+															redesign</h3>
 														<div class="ld-pf-category size-md" data-split-text="true"
 															data-split-options='{ "type": "lines" }'>
-															<a href="#">Graphic Design</a>
+															User Research
 														</div><!-- /.ld-pf-category -->
 													</div><!-- /.ld-pf-details-inner -->
 												</div><!-- /.ld-pf-details -->
@@ -680,142 +545,6 @@
 				</div><!-- /.container -->
 			</section>
 
-			<section id="testimonials" class="vc_row pt-50 pb-120">
-				<div class="container">
-					<div class="row">
-
-						<div class="lqd-column col-md-12">
-
-							<div
-								class="carousel-container carousel-nav-floated carousel-nav-right carousel-nav-vertical carousel-nav-line-between carousel-nav-lg carousel-nav-bordered carousel-nav-circle carousel-dots-style1 carousel-nav-light">
-
-								<div class="carousel-items row"
-									data-lqd-flickity='{"cellAlign":"left", "prevNextButtons":true, "buttonsAppendTo":"self", "pageDots":false, "fullwidthSide":true, "groupCells":false, "pauseAutoPlayOnHover":false, "navArrow":"6", "navOffsets":{"nav":{"right":" 100px"}}}'>
-
-									<div class="lqd-column col-xs-12 carousel-item">
-
-										<div class="row">
-											<div class="col-md-9">
-
-												<div
-													class="testimonial testimonial-avatar-shadowed text-left text-white">
-													<div class="testimonial-quote">
-														<blockquote>
-															<h6
-																class="mt-0 mb-30 font-size-14 text-uppercase font-weight-bold ltr-sp-2 text-secondary">
-																nice words from nice clients</h6>
-															<p class="font-size-1-5x lh-16"><em>“Eugenia is very
-																	detail-oriented, which is essential
-																	in her line of work; she has a keen eye for relevant
-																	digital content, and is superb at
-																	understanding a brief, communicating her ideas, and
-																	delivering standout results on
-																	time and in budget.”</em></p>
-														</blockquote>
-													</div><!-- /.testimonial-quote -->
-													<div class="testimonial-details">
-														<figure class="avatar">
-															<img src="./assets/demo/team/team-4.jpg" alt="Dylan Gordon">
-														</figure>
-														<div class="testimonial-info">
-															<h5 class="text-white">Dylan Gordon</h5>
-															<h6 class="font-weight-normal">Conecom Creative Director
-															</h6>
-														</div><!-- /.testimonial-info -->
-													</div><!-- /.testimonial-details -->
-												</div><!-- /.testimonial -->
-
-											</div><!-- /.col-md-9 -->
-										</div><!-- /.row -->
-
-									</div><!-- /.lqd-column col-xs-12 carousel-item -->
-
-									<div class="lqd-column col-xs-12 carousel-item">
-
-										<div class="row">
-											<div class="col-md-9">
-
-												<div
-													class="testimonial testimonial-avatar-shadowed text-left text-white">
-													<div class="testimonial-quote">
-														<blockquote>
-															<h6
-																class="mt-0 mb-30 font-size-14 text-uppercase font-weight-bold ltr-sp-2 text-secondary">
-																nice words from nice clients</h6>
-															<p class="font-size-1-5x lh-16"><em>“Eugenia is very
-																	detail-oriented, which is essential
-																	in her line of work; she has a keen eye for relevant
-																	digital content, and is superb at
-																	understanding a brief, communicating her ideas, and
-																	delivering standout results on
-																	time and in budget.”</em></p>
-														</blockquote>
-													</div><!-- /.testimonial-quote -->
-													<div class="testimonial-details">
-														<figure class="avatar">
-															<img src="./assets/demo/team/team-4.jpg" alt="Dylan Gordon">
-														</figure>
-														<div class="testimonial-info">
-															<h5 class="text-white">Dylan Gordon</h5>
-															<h6 class="font-weight-normal">Conecom Creative Director
-															</h6>
-														</div><!-- /.testimonial-info -->
-													</div><!-- /.testimonial-details -->
-												</div><!-- /.testimonial -->
-
-											</div><!-- /.col-md-9 -->
-										</div><!-- /.row -->
-
-									</div><!-- /.lqd-column col-xs-12 carousel-item -->
-
-									<div class="lqd-column col-xs-12 carousel-item">
-
-										<div class="row">
-											<div class="col-md-9">
-
-												<div
-													class="testimonial testimonial-avatar-shadowed text-left text-white">
-													<div class="testimonial-quote">
-														<blockquote>
-															<h6
-																class="mt-0 mb-30 font-size-14 text-uppercase font-weight-bold ltr-sp-2 text-secondary">
-																nice words from nice clients</h6>
-															<p class="font-size-1-5x lh-16"><em>“Eugenia is very
-																	detail-oriented, which is essential
-																	in her line of work; she has a keen eye for relevant
-																	digital content, and is superb at
-																	understanding a brief, communicating her ideas, and
-																	delivering standout results on
-																	time and in budget.”</em></p>
-														</blockquote>
-													</div><!-- /.testimonial-quote -->
-													<div class="testimonial-details">
-														<figure class="avatar">
-															<img src="./assets/demo/team/team-4.jpg" alt="Dylan Gordon">
-														</figure>
-														<div class="testimonial-info">
-															<h5 class="text-white">Dylan Gordon</h5>
-															<h6 class="font-weight-normal">Conecom Creative Director
-															</h6>
-														</div><!-- /.testimonial-info -->
-													</div><!-- /.testimonial-details -->
-												</div><!-- /.testimonial -->
-
-											</div><!-- /.col-md-9 -->
-										</div><!-- /.row -->
-
-									</div><!-- /.lqd-column col-xs-12 carousel-item -->
-
-								</div><!-- /.carousel-items row -->
-
-							</div><!-- /.carousel-container -->
-
-						</div><!-- /.lqd-column col-md-12 -->
-
-					</div><!-- /.row -->
-				</div><!-- /.container -->
-			</section>
-
 		</main><!-- /#content.content -->
 
 		<footer id="contact" class="main-footer pt-80">
@@ -831,15 +560,15 @@
 								Let’s make it
 								happen</h6>
 							<h2 class="mt-0 text-white font-size-2-5x lh-13">Let's create the future</h2>
-							<p class="mb-60">We’re available for commissions and collaborations, and I’m excited to hear
+							<p class="mb-60">I am available for commissions and collaborations, and I’m excited to hear
 								from you
 								about new projects. </p>
 
 							<ul class="social-icon scheme-white social-icon-md">
+								<li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
 								<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
 								<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#" target="_blank"><i class="fa fa-behance"></i></a></li>
-								<li><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
 							</ul>
 
 						</div><!-- /.col-md-3 -->
@@ -864,7 +593,7 @@
 										</div><!-- /.col-md-6 -->
 										<div class="col-md-6">
 											<select name="country" aria-required="true" aria-invalid="false" required>
-												<option value="">---</option>
+												<option value="">Select Country</option>
 												<option value="United States">United States</option>
 												<option value="United Kingdom">United Kingdom</option>
 												<option value="Italy">Italy</option>
@@ -878,7 +607,7 @@
 										</div><!-- /.col-md-12 -->
 										<div class="col-md-6">
 											<p class="font-size-16 opacity-07"><em>We all know how important your
-													information is. They are
+													information is. It is
 													always safe with us.</em></p>
 										</div><!-- /.col-md-6 -->
 										<div class="col-md-6 text-md-right">
@@ -900,7 +629,7 @@
 				<div class="container">
 					<div class="row d-flex flex-wrap align-items-center">
 
-						<div class="lqd-column col-md-4 text-center text-md-left mb-4 mb-md-0">
+						<!-- <div class="lqd-column col-md-4 text-center text-md-left mb-4 mb-md-0">
 
 							<ul class="lqd-custom-menu reset-ul inline-nav font-size-14">
 								<li><a href="#">Ave Guide</a></li>
@@ -909,19 +638,19 @@
 								<li><a href="#">Community</a></li>
 							</ul>
 
-						</div><!-- /.col-md-4 -->
+						</div>/.col-md-4 -->
 
-						<div class="lqd-column col-md-4 text-center mb-4 mb-md-0">
+						<!-- <div class="lqd-column col-md-4 text-center mb-4 mb-md-0">
 
 							<figure>
 								<img src="./assets/img/logo/logo-light.svg" alt="Ave">
 							</figure>
 
-						</div><!-- /.col-md-4 -->
+						</div>/.col-md-4 -->
 
-						<div class="lqd-column col-md-4 text-center text-md-right">
+						<div class="lqd-column col-md-12 text-center text-md-center">
 
-							<p class="my-0"><span style="font-size: 15px;">© 2019 Ave</span></p>
+							<p class="my-0"><span style="font-size: 15px;">© EMMY NELSON</span></p>
 
 						</div><!-- /.col-md-4 text-md-right -->
 
